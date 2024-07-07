@@ -1,0 +1,87 @@
+.general{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.login{
+    max-width: 200px;
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    background-color: gray;
+    border: 1px solid black;
+    a{
+            color: white;
+            font-size: 20px;
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.leftlogin{
+    display: flex;
+    flex-direction:column;
+    gap: 40px;
+}
+input{
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+}
+input:hover{
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.btn{
+    max-width: 110px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper {
+padding-top: 50px;
+padding-bottom: 50px;
+  }
+
+.swiper-button-next:after{
+font-size: 20px !important;
+color: gray;
+}
+.swiper-button-prev:after{
+font-size: 20px !important;
+color: gray;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
